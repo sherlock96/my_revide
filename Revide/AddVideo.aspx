@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddMovies.aspx.cs" Inherits="Revide.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddVideo.aspx.cs" Inherits="Revide.WebForm3" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
             <asp:TextBox id="tb2" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
             </div>
           </div>
- <div class="form-group">
+            <div class="form-group">
             <label class="col-lg-3 control-label">Language</label>
             <div class="col-lg-8">
              <asp:TextBox id="tb3" class="form-control" runat="server" visible="true" 

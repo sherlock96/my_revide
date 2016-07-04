@@ -15,7 +15,7 @@
     
     </br>
 <div class="container">
-    <h1 > <center> Block a user </center></h1>
+    <h1 > <center> Block/Unblock a user </center></h1>
   	<hr>
 	<div class="row">
       <!-- left column -->
@@ -32,14 +32,29 @@
               <asp:TextBox id="tb1" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
             </div>
           </div>
+            <div align="right">
+   <asp:Button ID="Block" runat="server" Text="Block"  class="btn btn-primary" 
+              onclick="Button1_Click"/>
+          </div>
+  
+                    
+       
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Username</label>
+            <div class="col-lg-8">
+              <asp:TextBox id="tb2" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
+            </div>
+          </div>
            
           </div>
    <div align="right">
-   <asp:Button ID="Block" runat="server" Text="Block"  class="btn btn-primary" 
-              onclick="Button1_Click"/>
+   <asp:Button ID="UnBlock" runat="server" Text="UnBlock"  class="btn btn-primary" 
+              onclick="Button2_Click"/>
               </div>
-         </form>
-       </div>
-  </div>
+         </div>
+       </div> 
+
+  <div>
+  </form> 
 </div>
 <hr>

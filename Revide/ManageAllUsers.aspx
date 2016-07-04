@@ -22,7 +22,7 @@
          <a href="BlockUser.aspx" class="btn btn-info btn-lg">
           <span class="glyphicon glyphicon-ban-circle"></span> Click here to block User-->
            
-           <a href="#">
+           <a href="AddAdmin.aspx">
           <span class="glyphicon glyphicon-plus"></span> 
         </a>
         Click here to add admin

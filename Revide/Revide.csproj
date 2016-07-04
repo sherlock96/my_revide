@@ -55,6 +55,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddAdmin.aspx" />
     <Content Include="AnotherTemp.aspx" />
     <Content Include="ManageEndUsers.aspx" />
     <Content Include="Rating.aspx" />
@@ -72,14 +73,22 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="AdminPage.aspx" />
-    <Content Include="AddMovies.aspx" />
+    <Content Include="AddVideo.aspx" />
     <Content Include="BlockUser.aspx" />
     <Content Include="ManageVideos.aspx" />
     <Content Include="ManageAllUsers.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAdmin.aspx.cs">
+      <DependentUpon>AddAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAdmin.aspx.designer.cs">
+      <DependentUpon>AddAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AnotherTemp.aspx.cs">
       <DependentUpon>AnotherTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AnotherTemp.aspx.designer.cs">
       <DependentUpon>AnotherTemp.aspx</DependentUpon>
@@ -142,12 +151,12 @@
     <Compile Include="AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddMovies.aspx.cs">
-      <DependentUpon>AddMovies.aspx</DependentUpon>
+    <Compile Include="AddVideo.aspx.cs">
+      <DependentUpon>AddVideo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddMovies.aspx.designer.cs">
-      <DependentUpon>AddMovies.aspx</DependentUpon>
+    <Compile Include="AddVideo.aspx.designer.cs">
+      <DependentUpon>AddVideo.aspx</DependentUpon>
     </Compile>
     <Compile Include="BlockUser.aspx.cs">
       <DependentUpon>BlockUser.aspx</DependentUpon>

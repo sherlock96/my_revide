@@ -10,7 +10,7 @@
 namespace Revide {
     
     
-    public partial class WebForm4 {
+    public partial class AddAdmin {
         
         /// <summary>
         /// Form1 control.
@@ -31,15 +31,6 @@ namespace Revide {
         protected global::System.Web.UI.WebControls.TextBox tb1;
         
         /// <summary>
-        /// Block control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Block;
-        
-        /// <summary>
         /// tb2 control.
         /// </summary>
         /// <remarks>
@@ -49,12 +40,39 @@ namespace Revide {
         protected global::System.Web.UI.WebControls.TextBox tb2;
         
         /// <summary>
-        /// UnBlock control.
+        /// tb3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button UnBlock;
+        protected global::System.Web.UI.WebControls.TextBox tb3;
+        
+        /// <summary>
+        /// tb4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb4;
+        
+        /// <summary>
+        /// tb5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb5;
+        
+        /// <summary>
+        /// Save control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Save;
     }
 }

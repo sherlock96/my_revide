@@ -72,8 +72,7 @@
             <!--input type="button" id="btnExport"text="download"-->
         </div>
     </div>
-    <button id="btnExport" width="20px" height="20px" class="btn btn-success">
-        download</button>
+    
     <div>
     </div>
     <script>

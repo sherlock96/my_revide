@@ -55,8 +55,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnotherTemp.aspx" />
     <Content Include="images\collage.png" />
+    <Content Include="ManageEndUsers.aspx" />
     <Content Include="Rating.aspx" />
+    <Content Include="UserControls\Footer.ascx" />
+    <Content Include="UserControls\Header.ascx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UpdateProfile.aspx" />
     <Content Include="Web.config">
@@ -71,212 +75,32 @@
     <Content Include="AdminPage.aspx" />
     <Content Include="AddMovies.aspx" />
     <Content Include="BlockUser.aspx" />
-    <Content Include="WebApplication8\WebApplication8.sln" />
-    <Content Include="WebApplication8\WebApplication8\About.aspx" />
-    <Content Include="WebApplication8\WebApplication8\Account\ChangePassword.aspx" />
-    <Content Include="WebApplication8\WebApplication8\Account\ChangePasswordSuccess.aspx" />
-    <Content Include="WebApplication8\WebApplication8\Account\Login.aspx" />
-    <Content Include="WebApplication8\WebApplication8\Account\Register.aspx" />
-    <Content Include="WebApplication8\WebApplication8\AnotherTemp.aspx" />
-    <Content Include="WebApplication8\WebApplication8\bin\WebApplication8.dll" />
-    <Content Include="WebApplication8\WebApplication8\bin\WebApplication8.pdb" />
-    <Content Include="WebApplication8\WebApplication8\css\bootstrap-slider\slider.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bootstrap-wysihtml5\bootstrap3-wysihtml5.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bootstrap.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bootstrap.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bs-datetimepicker\bootstrap-datetimepicker.css" />
-    <Content Include="WebApplication8\WebApplication8\css\bs-datetimepicker\bootstrap-datetimepicker.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\colorpicker\bootstrap-colorpicker.css" />
-    <Content Include="WebApplication8\WebApplication8\css\colorpicker\bootstrap-colorpicker.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\dataTables.bootstrap.css" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\images\sort_asc.png" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\images\sort_asc_disabled.png" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\images\sort_both.png" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\images\sort_desc.png" />
-    <Content Include="WebApplication8\WebApplication8\css\datatables\images\sort_desc_disabled.png" />
-    <Content Include="WebApplication8\WebApplication8\css\datepicker\datepicker3.css" />
-    <Content Include="WebApplication8\WebApplication8\css\daterangepicker\daterangepicker-bs3.css" />
-    <Content Include="WebApplication8\WebApplication8\css\easypiechart.css" />
-    <Content Include="WebApplication8\WebApplication8\css\font-awesome.css" />
-    <Content Include="WebApplication8\WebApplication8\css\font-awesome.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\fullcalendar\fullcalendar.css" />
-    <Content Include="WebApplication8\WebApplication8\css\fullcalendar\fullcalendar.print.css" />
-    <Content Include="WebApplication8\WebApplication8\css\gmap.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\all.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\aero%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\aero.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\aero.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\blue%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\blue.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\blue.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\flat%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\flat.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\flat.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\green%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\green.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\green.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\grey%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\grey.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\grey.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\orange%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\orange.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\orange.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\pink%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\pink.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\pink.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\purple%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\purple.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\purple.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\red%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\red.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\red.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\yellow%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\yellow.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\yellow.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\flat\_all.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\futurico\futurico%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\futurico\futurico.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\futurico\futurico.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\aero.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\blue.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\green.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\grey.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\line%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\line.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\line.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\orange.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\pink.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\purple.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\red.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\yellow.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\line\_all.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\aero%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\aero.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\aero.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\blue%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\blue.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\blue.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\green%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\green.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\green.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\grey%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\grey.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\grey.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\minimal%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\minimal.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\minimal.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\orange%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\orange.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\orange.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\pink%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\pink.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\pink.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\purple%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\purple.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\purple.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\red%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\red.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\red.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\yellow%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\yellow.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\yellow.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\minimal\_all.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\polaris\polaris%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\polaris\polaris.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\polaris\polaris.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\aero%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\aero.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\aero.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\blue%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\blue.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\blue.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\green%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\green.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\green.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\grey%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\grey.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\grey.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\orange%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\orange.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\orange.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\pink%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\pink.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\pink.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\purple%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\purple.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\purple.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\red%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\red.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\red.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\square%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\square.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\square.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\yellow%402x.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\yellow.css" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\yellow.png" />
-    <Content Include="WebApplication8\WebApplication8\css\iCheck\square\_all.css" />
-    <Content Include="WebApplication8\WebApplication8\css\images\animated-overlay.gif" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_flat_55_fbec88_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_glass_85_dfeffc_1x400.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_217bc0_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_469bdd_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_6da8d5_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_d8e7f3_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\images\ui-icons_f9bd01_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\ionicons.css" />
-    <Content Include="WebApplication8\WebApplication8\css\ionicons.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\ionslider\ion.rangeSlider.css" />
-    <Content Include="WebApplication8\WebApplication8\css\ionslider\ion.rangeSlider.skinFlat.css" />
-    <Content Include="WebApplication8\WebApplication8\css\ionslider\ion.rangeSlider.skinNice.css" />
-    <Content Include="WebApplication8\WebApplication8\css\jquery-ui.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\jquery.ui.plupload.css" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\animated-overlay.gif" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_100_e6e7e8_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_100_f56954_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_55_f39c12_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_65_ffffff_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_75_dadada_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_75_e6e6e6_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-icons_222222_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-icons_454545_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-icons_888888_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\images\ui-icons_ffffff_256x240.png" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\jquery-ui-1.10.3.custom.css" />
-    <Content Include="WebApplication8\WebApplication8\css\jQueryUI\jquery-ui-1.10.3.custom.min.css" />
-    <Content Include="WebApplication8\WebApplication8\css\jvectormap\jquery-jvectormap-1.2.2.css" />
-    <Content Include="WebApplication8\WebApplication8\css\morris\morris.css" />
-    <Content Include="WebApplication8\WebApplication8\css\multiselect\multi-select.css" />
-    <Content Include="WebApplication8\WebApplication8\css\style.css" />
-    <Content Include="WebApplication8\WebApplication8\css\throbber.gif" />
-    <Content Include="WebApplication8\WebApplication8\css\timepicker\bootstrap-timepicker.css" />
-    <Content Include="WebApplication8\WebApplication8\css\timepicker\bootstrap-timepicker.min.css" />
-    <Content Include="WebApplication8\WebApplication8\Default.aspx" />
-    <Content Include="WebApplication8\WebApplication8\Global.asax" />
-    <Content Include="WebApplication8\WebApplication8\obj\Debug\WebApplication8.csproj.FileListAbsolute.txt" />
-    <Content Include="WebApplication8\WebApplication8\obj\Debug\WebApplication8.dll" />
-    <Content Include="WebApplication8\WebApplication8\obj\Debug\WebApplication8.pdb" />
-    <Content Include="WebApplication8\WebApplication8\Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="WebApplication8\WebApplication8\Scripts\jquery-1.4.1.js" />
-    <Content Include="WebApplication8\WebApplication8\Scripts\jquery-1.4.1.min.js" />
-    <Content Include="WebApplication8\WebApplication8\Styles\Site.css" />
-    <Content Include="WebApplication8\WebApplication8\WebApplication8.csproj" />
-    <Content Include="WebApplication8\WebApplication8\WebApplication8.csproj.user" />
-    <Content Include="WebApplication8\WebApplication8\WebForm1.aspx" />
-    <Content Include="WebApplication8\WebApplication8\WebForm2.aspx" />
-    <Content Include="WebForm5.aspx" />
+    <Content Include="ManageVideos.aspx" />
+    <Content Include="ManageAllUsers.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnotherTemp.aspx.cs">
+      <DependentUpon>AnotherTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnotherTemp.aspx.designer.cs">
+      <DependentUpon>AnotherTemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Query.cs" />
+    <Compile Include="ManageEndUsers.aspx.cs">
+      <DependentUpon>ManageEndUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageEndUsers.aspx.designer.cs">
+      <DependentUpon>ManageEndUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rating.aspx.cs">
       <DependentUpon>Rating.aspx</DependentUpon>
@@ -284,6 +108,20 @@
     </Compile>
     <Compile Include="Rating.aspx.designer.cs">
       <DependentUpon>Rating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
@@ -320,97 +158,28 @@
     <Compile Include="BlockUser.aspx.designer.cs">
       <DependentUpon>BlockUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebApplication8\WebApplication8\About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\ChangePassword.aspx.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\ChangePassword.aspx.designer.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\ChangePasswordSuccess.aspx.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\ChangePasswordSuccess.aspx.designer.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Account\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\AnotherTemp.aspx.cs">
-      <DependentUpon>AnotherTemp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\AnotherTemp.aspx.designer.cs">
-      <DependentUpon>AnotherTemp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\DataLayer\Query.cs" />
-    <Compile Include="WebApplication8\WebApplication8\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Properties\AssemblyInfo.cs" />
-    <Compile Include="WebApplication8\WebApplication8\Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApplication8\WebApplication8\WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm5.aspx.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="ManageVideos.aspx.cs">
+      <DependentUpon>ManageVideos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm5.aspx.designer.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="ManageVideos.aspx.designer.cs">
+      <DependentUpon>ManageVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAllUsers.aspx.cs">
+      <DependentUpon>ManageAllUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageAllUsers.aspx.designer.cs">
+      <DependentUpon>ManageAllUsers.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="images\MediaImages\" />
     <Folder Include="js\" />
-    <Folder Include="WebApplication8\WebApplication8\App_Data\" />
-    <Folder Include="WebApplication8\WebApplication8\obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WebApplication8\WebApplication8\Account\Web.config" />
-    <None Include="WebApplication8\WebApplication8\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="WebApplication8\WebApplication8\Site.Master" />
-    <Content Include="WebApplication8\WebApplication8\Web.config" />
-    <Content Include="WebApplication8\WebApplication8\Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="WebApplication8\WebApplication8\Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
+    <Content Include="MasterPage\Main.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

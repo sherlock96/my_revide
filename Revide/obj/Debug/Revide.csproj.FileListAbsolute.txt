@@ -9,3 +9,8 @@ C:\Users\shivam.agrawal\Desktop\Revide\Revide\bin\Revide.pdb
 C:\Users\shivam.agrawal\Desktop\Revide\Revide\obj\Debug\Revide.dll
 C:\Users\shivam.agrawal\Desktop\Revide\Revide\obj\Debug\Revide.pdb
 C:\Users\shivam.agrawal\Desktop\Revide\Revide\obj\Debug\Revide.csprojResolveAssemblyReference.cache
+C:\Users\shivam.agrawal\Desktop\my_revide\Revide\obj\Debug\Revide.csprojResolveAssemblyReference.cache
+C:\Users\shivam.agrawal\Desktop\my_revide\Revide\obj\Debug\Revide.dll
+C:\Users\shivam.agrawal\Desktop\my_revide\Revide\bin\Revide.dll
+C:\Users\shivam.agrawal\Desktop\my_revide\Revide\bin\Revide.pdb
+C:\Users\shivam.agrawal\Desktop\my_revide\Revide\obj\Debug\Revide.pdb

@@ -126,9 +126,9 @@
 	<!--<li ><a href="#"  >Manage Website<span style="font-size:16px; margin-top:5px" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog "></span></a> -->
           <div id="collapse1" class="panel-collapse collapse">
           <ul class="list-group">
-            <li class="list-group-item" >Manage Movies</li>
             <li class="list-group-item">Manage End Users</li>
-            <li class="list-group-item"><a href="ManageAllUsers.aspx"> Sub Admins </li>
+            <li class="list-group-item">Manage All Users </li>
+            <li class="list-group-item" >Manage Movies</li>
         </ul>
           </div>         
     </li>
@@ -136,9 +136,9 @@
 	<li ><a data-toggle="collapse" href="#collapse2">Report Section<span style="font-size:16px;  margin-top:6px" class="pull-right hidden-xs showopacity glyphicon glyphicon-file"></span></a>
     <div id="collapse2" class="panel-collapse collapse">
     <ul class="list-group">
-            <li class="list-group-item">Movies Report</li>
-            <li class="list-group-item">End Users Report</li>
-            <li class="list-group-item">User Reports</li>
+           <li class="list-group-item">End Users Report</li>
+            <li class="list-group-item">All User Reports</li>
+             <li class="list-group-item">Movies Report</li>
         </ul>
         </div>
     </li>

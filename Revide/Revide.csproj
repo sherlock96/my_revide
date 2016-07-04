@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnotherTemp.aspx" />
-    <Content Include="images\collage.png" />
     <Content Include="ManageEndUsers.aspx" />
     <Content Include="Rating.aspx" />
     <Content Include="UserControls\Footer.ascx" />
@@ -81,7 +80,6 @@
   <ItemGroup>
     <Compile Include="AnotherTemp.aspx.cs">
       <DependentUpon>AnotherTemp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AnotherTemp.aspx.designer.cs">
       <DependentUpon>AnotherTemp.aspx</DependentUpon>

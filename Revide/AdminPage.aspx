@@ -105,7 +105,7 @@
     </li>
 	<li ><a href="#">Manage Website<span style="font-size:16px; margin-top:5px" class="pull-right hidden-xs showopacity glyphicon glyphicon-settings"></span></a>
     <ul class="list-group">
-            <li class="list-group-item">Manage Movies</li>
+            <li class="list-group-item"><a href="ManageVideos"> Manage Videos</a></li>
             <li class="list-group-item">Manage End Users</li>
             <li class="list-group-item">Manage Sub Admins</li>
         </ul>

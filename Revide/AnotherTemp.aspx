@@ -74,9 +74,7 @@
      <link rel="stylesheet" type="text/css" href="C:\Director-free\css">
      <link rel="stylesheet" type="text/css" href="C:\Director-free\fonts">
      
-
-
-
+     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -130,7 +128,7 @@
           <ul class="list-group">
             <li class="list-group-item" >Manage Movies</li>
             <li class="list-group-item">Manage End Users</li>
-            <li class="list-group-item">Manage Sub Admins</li>
+            <li class="list-group-item"><a href="ManageAllUsers.aspx"> Sub Admins </li>
         </ul>
           </div>         
     </li>

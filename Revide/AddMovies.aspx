@@ -15,7 +15,7 @@
     
     </br>
 <div class="container">
-    <h1 > <center> Add new movie </center></h1>
+    <h1 > <center> ADD NEW VIDEO </center></h1>
   	<hr>
 	<div class="row">
       <!-- left column -->
@@ -27,7 +27,7 @@
       <div class="col-md-9 personal-info">
        <form id="Form1" class="form-horizontal" runat = "server" role="form">
           <div class="form-group">
-            <label class="col-lg-3 control-label">Movie Title</label>
+            <label class="col-lg-3 control-label">Video Title</label>
             <div class="col-lg-8">
               <asp:TextBox id="tb1" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
             </div>
@@ -66,7 +66,7 @@
  <br /><br /><br />
  
            <div class="form-group" align="center">
-             <h3>Upload movie poster...</h3>
+             <h3>Upload video poster...</h3>
              <asp:FileUpload ID="fileuploadimages" runat="server" />
         </div> 
    </div>

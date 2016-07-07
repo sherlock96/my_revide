@@ -11,9 +11,9 @@
 
 
     </br>
+    </br>    
     </br>
-    
-    </br>
+
 <div class="container">
     <h1 > <center> Block/Unblock a user </center></h1>
   	<hr>

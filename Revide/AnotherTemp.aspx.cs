@@ -36,9 +36,9 @@ namespace WebApplication8
                     da.Fill(count_user);
 
 
-                    Num_of_user = count_user.Tables[0].Rows[2][0].ToString();
+                    Num_of_user = count_user.Tables[0].Rows[0][0].ToString();
                     active_users = count_user.Tables[0].Rows[1][0].ToString();
-                    blocked_users = count_user.Tables[0].Rows[0][0].ToString();
+                    blocked_users = count_user.Tables[0].Rows[2][0].ToString();
                     total_videos = count_user.Tables[0].Rows[3][0].ToString();
 
                 }

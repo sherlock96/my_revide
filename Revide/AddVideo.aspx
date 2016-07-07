@@ -9,7 +9,6 @@
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
     </br>
     </br>
     
@@ -55,12 +54,19 @@
             <label class="col-lg-3 control-label">Genre</label>
             <div class="col-lg-8">
               <asp:TextBox id="tb5" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
-              
- </div>
+              </div>
+              </br></br></br>
           <div class="form-group">
-            <label class="col-lg-3 control-label">Adult Content</label>
+            <label class="col-lg-3 control-label">Adult Rating</label>
             <div class="col-lg-8">
               <asp:TextBox id="tb6" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
+              
+ </div>
+ </br></br></br>
+ <div class="form-group">
+            <label class="col-lg-3 control-label">Synopsis</label>
+            <div class="col-lg-8">
+              <asp:TextBox id="tb7" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
               
  </div>
  <br /><br /><br />

@@ -27,7 +27,7 @@ namespace Revide
             DateTime ReleaseDate = Convert.ToDateTime(tb4.Text.Trim());
             string Genre = tb5.Text.Trim();
             string AdultRating = tb6.Text.Trim();
-            
+            string Syn = tb7.Text.Trim();
 
             Image img = new Image();
             //imgA.Controls.Add(img);
@@ -50,7 +50,8 @@ namespace Revide
                     cmd.Parameters.Add("@ReleaseDate", SqlDbType.DateTime).Value = ReleaseDate;
                     cmd.Parameters.Add("@Genre", SqlDbType.VarChar).Value = Genre;
                     cmd.Parameters.Add("@AdultRating", SqlDbType.VarChar).Value = AdultRating;
-                   cmd.Parameters.Add("@imgdest", SqlDbType.VarChar).Value = imgdest;
+                    cmd.Parameters.Add("@Syn", SqlDbType.VarChar).Value = Syn;
+                    cmd.Parameters.Add("@imgdest", SqlDbType.VarChar).Value = imgdest;
                     //cmd.Parameters.Add(new SqlParameter("@img", img));
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.ExecuteNonQuery();

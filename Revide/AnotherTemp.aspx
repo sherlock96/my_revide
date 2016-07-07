@@ -1,9 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AnotherTemp.aspx.cs" Inherits="WebApplication8.AnotherTemp" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage/Main.Master" AutoEventWireup="true"
+    CodeBehind="AnotherTemp.aspx.cs" Inherits="WebApplication8.AnotherTemp" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+     <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+     <title>
+     Admin Page
+     </title>
     <meta charset="UTF-8">
     <title>Admin | Dashboard</title>
 
@@ -87,8 +89,8 @@
 
           </style>
           <script> src="C:\Director-free\js"   </script>
-      </head>
-      <body class="skin-black">
+   
+      <div class="skin-black">
         <!-- header logo: style can be found in header.less -->
         <header class="header">
             <a href="index.html" class="logo">
@@ -126,9 +128,9 @@
 	<!--<li ><a href="#"  >Manage Website<span style="font-size:16px; margin-top:5px" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog "></span></a> -->
           <div id="collapse1" class="panel-collapse collapse">
           <ul class="list-group">
-            <li class="list-group-item">Manage End Users</li>
-            <li class="list-group-item">Manage All Users </li>
-            <li class="list-group-item" >Manage Movies</li>
+            <li class="list-group-item"><a style="color:black" href="ManageEndUsers.aspx"> Manage End Users </a></li>
+            <li class="list-group-item"><a style="color:black" href="ManageAllUsers.aspx"> Manage All Users </a></li>
+            <li class="list-group-item" > <a style="color:black" href="ManageVideos.aspx"> Manage Videos </a></li>
         </ul>
           </div>         
     </li>
@@ -276,7 +278,7 @@
                                         </section>
                       </div>
                   </div>                
-                                        
+                </asp:Content>             
         
-</body>
-</html>
+
+

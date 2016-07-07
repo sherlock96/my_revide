@@ -2,6 +2,9 @@
     CodeBehind="ManageAllUsers.aspx.cs" Inherits="Revide.WebForm16" %>
 
     <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>
+    Manage All Users
+    </title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
         rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">

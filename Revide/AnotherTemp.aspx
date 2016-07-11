@@ -1,8 +1,9 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage/Main.Master" AutoEventWireup="true"
     CodeBehind="AnotherTemp.aspx.cs" Inherits="WebApplication8.AnotherTemp" %>
 
-
+    
      <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
      <title>
      Admin Page
      </title>
@@ -44,7 +45,7 @@
     }
 </script>
 
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta name="description" content="Developed By M Abdur Rokib Promy">
     <meta name="keywords" content="Admin, Bootstrap 3, Template, Theme, Responsive">
     <!-- bootstrap 3.0.2 -->
@@ -67,7 +68,7 @@
     <!-- Daterange picker -->
     <link href="css/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
     <!-- iCheck for checkboxes and radio inputs -->
-    <link href="css/iCheck/all.css" rel="stylesheet" type="text/css" />
+    <link href="css/iCheck/all.css" rel="stylesheet" type="text/css" /> 
     <!-- bootstrap wysihtml5 - text editor -->
     <!-- <link href="css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" /> -->
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -87,9 +88,9 @@
 
           <style type="text/css">
 
-          </style>
+          </style> 
           <script> src="C:\Director-free\js"   </script>
-   
+     
       <div class="skin-black">
         <!-- header logo: style can be found in header.less -->
         <header class="header">

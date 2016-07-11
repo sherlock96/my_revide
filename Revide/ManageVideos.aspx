@@ -41,7 +41,7 @@
                                 Language
                             </th>
                             <th>
-                                Poster Source
+                                Type
                             </th>
                             <th>
                                 Release Date
@@ -63,7 +63,7 @@
                                         <%# DataBinder.Eval(Container.DataItem, "Language")%>
                                     </td>
                                     <td>
-                                        <%# DataBinder.Eval(Container.DataItem, "PosterSrc")%>
+                                        <%# DataBinder.Eval(Container.DataItem, "Type")%>
                                     </td>
                                     <td>
                                         <%# DataBinder.Eval(Container.DataItem, "ReleaseDate")%>

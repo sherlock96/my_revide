@@ -86,7 +86,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label">Release Date</label>
             <div class="col-lg-8">
-              <asp:TextBox id="tb4"  class="form-control" type="datetime" runat="server" visible="true"/></asp:Textbox> 
+              <asp:TextBox id="tb4"  class="form-control" type="date" runat="server" visible="true"/></asp:Textbox> 
             </div>
           </div>
           <div class="form-group">
@@ -101,6 +101,7 @@
               <asp:TextBox id="tb6" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
               
  </div>
+ </br></br></br>
 
  <div class="form-group">
             <label class="col-lg-3 control-label">Synopsis</label>
@@ -108,7 +109,7 @@
               <asp:TextBox id="tb7" class="form-control" runat="server" visible="true" value=""/></asp:Textbox> 
               
  </div>
- <br /><br /><br />
+ </br></br></br>
  
            <div class="form-group" align="center">
              <h3>Upload video poster...</h3>

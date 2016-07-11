@@ -35,7 +35,7 @@ namespace Revide.DataLayer
 
         public DataTable getUserDetails()
         {
-            SqlDataAdapter sda = new SqlDataAdapter("select * from [User]", con);
+            SqlDataAdapter sda = new SqlDataAdapter("select * from [User] where RoleID=1", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             return dt;

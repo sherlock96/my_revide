@@ -52,7 +52,9 @@
                             <th>
                                 Genre
                             </th>
-                            
+                            <th>
+                                Adult Rating
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -74,7 +76,9 @@
                                     <td>
                                         <%# DataBinder.Eval(Container.DataItem, "Genre")%>
                                     </td>
-                                   
+                                    <td>
+                                        <%# DataBinder.Eval(Container.DataItem, "AdultRating")%>
+                                    </td>
                                 </tr>
                             </ItemTemplate>
                         </asp:Repeater>

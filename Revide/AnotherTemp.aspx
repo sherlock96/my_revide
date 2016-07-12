@@ -140,9 +140,9 @@
 	<li ><a data-toggle="collapse" href="#collapse2">Report Section<span style="font-size:16px;  margin-top:6px" class="pull-right hidden-xs showopacity glyphicon glyphicon-file"></span></a>
     <div id="collapse2" class="panel-collapse collapse">
     <ul class="list-group">
-           <li class="list-group-item"><a style="color:black" href="EndUserReport.aspx">End Users Report</a></li>
-            <li class="list-group-item"><a style="color:black" href="AllUserReport.aspx">All User Reports</a></li>
-             <li class="list-group-item"><a style="color:black" href="VideoReport.aspx">Video Report</a></li>
+           <li class="list-group-item"><a style="color:black" href="ManageEndUsers.aspx"> Manage End Users </a></li>
+            <li class="list-group-item"><a style="color:black" href="ManageAllUsers.aspx"> Manage All Users </a></li>
+            <li class="list-group-item" > <a style="color:black" href="ManageVideos.aspx"> Manage Videos </a></li>
         </ul>
         </div>
     </li>

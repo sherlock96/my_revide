@@ -2,6 +2,7 @@
     CodeBehind="EndUserReport.aspx.cs" Inherits="Revide.EndUserReport" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<title>End User Report</title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
         rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
@@ -42,7 +43,7 @@
                                     <%# DataBinder.Eval(Container.DataItem,"Username") %>
                                 </td>
                                 <td>
-                                    <%# DataBinder.Eval(Container.DataItem, "LoginID")%>
+                                    <%# DataBinder.Eval(Container.DataItem, "EmailID")%>
                                 </td>
                                 <td>
                                     <%# DataBinder.Eval(Container.DataItem, "Country")%>

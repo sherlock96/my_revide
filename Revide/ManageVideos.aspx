@@ -2,6 +2,9 @@
     CodeBehind="ManageVideos.aspx.cs" Inherits="Revide.WebForm17" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<title>
+    Manage Videos
+    </title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
         rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">

@@ -9,7 +9,9 @@
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
+<title>
+    Block Users
+    </title>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" data-offset-top="197">
         <div class="container-fluid">

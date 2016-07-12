@@ -14,7 +14,9 @@
     </br>
     
     </br>
-
+    <title>
+    Add Admin
+    </title>
     <nav class="navbar navbar-inverse navbar-fixed-top" data-offset-top="197">
         <div class="container-fluid">
 

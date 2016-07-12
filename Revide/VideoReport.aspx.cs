@@ -12,14 +12,15 @@ using System.Text;
 
 namespace Revide
 {
-    public partial class ManageEndUsers : System.Web.UI.Page
+    public partial class VideoReport : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             Query q = new Query();
-            DataTable d = q.getUserDetails2();
-            rpt_details.DataSource = d;
-            rpt_details.DataBind();
+            DataTable d = q.getVideoReport();
+            rpt_videoreport.DataSource = d;
+            rpt_videoreport.DataBind();
         }
+
     }
 }

@@ -12,12 +12,12 @@ using System.Text;
 
 namespace Revide
 {
-    public partial class ManageEndUsers : System.Web.UI.Page
+    public partial class EndUserReport : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             Query q = new Query();
-            DataTable d = q.getUserDetails2();
+            DataTable d = q.getUserDetails();
             rpt_details.DataSource = d;
             rpt_details.DataBind();
         }

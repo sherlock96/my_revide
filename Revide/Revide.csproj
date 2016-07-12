@@ -56,13 +56,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddAdmin.aspx" />
+    <Content Include="AllUserReport.aspx" />
     <Content Include="AnotherTemp.aspx" />
+    <Content Include="EndUserReport.aspx" />
+    <Content Include="images\Posters\C2.jpg" />
+    <Content Include="images\Posters\FD.jpg" />
+    <Content Include="images\Posters\Friends.jpg" />
+    <Content Include="images\Posters\GOT.jpg" />
+    <Content Include="images\Posters\IndependenceDay.jpg" />
+    <Content Include="images\Posters\Suits.jpg" />
+    <Content Include="images\Posters\SV.jpg" />
+    <Content Include="images\Posters\tarzan.jpg" />
+    <Content Include="images\Posters\TheShallows.jpg" />
+    <Content Include="images\Posters\Wazir.jpg" />
+    <Content Include="images\Posters\znmd.jpg" />
     <Content Include="ManageEndUsers.aspx" />
     <Content Include="Rating.aspx" />
     <Content Include="UserControls\Footer.ascx" />
     <Content Include="UserControls\Header.ascx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UpdateProfile.aspx" />
+    <Content Include="VideoReport.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -86,6 +100,13 @@
     <Compile Include="AddAdmin.aspx.designer.cs">
       <DependentUpon>AddAdmin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AllUserReport.aspx.cs">
+      <DependentUpon>AllUserReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllUserReport.aspx.designer.cs">
+      <DependentUpon>AllUserReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AnotherTemp.aspx.cs">
       <DependentUpon>AnotherTemp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,6 +115,13 @@
       <DependentUpon>AnotherTemp.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataLayer\Query.cs" />
+    <Compile Include="EndUserReport.aspx.cs">
+      <DependentUpon>EndUserReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EndUserReport.aspx.designer.cs">
+      <DependentUpon>EndUserReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ManageEndUsers.aspx.cs">
       <DependentUpon>ManageEndUsers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -179,11 +207,19 @@
     <Compile Include="ManageAllUsers.aspx.designer.cs">
       <DependentUpon>ManageAllUsers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VideoReport.aspx.cs">
+      <DependentUpon>VideoReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VideoReport.aspx.designer.cs">
+      <DependentUpon>VideoReport.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="images\MediaImages\" />
     <Folder Include="js\" />
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage\Main.Master" />
